@@ -1,6 +1,7 @@
 #include "Application.h"
+#include <stdio.h>
 
-namespace Lrc {
+namespace GG {
 
 	Application::Application()
 	{
@@ -12,8 +13,8 @@ namespace Lrc {
 	}
 
 	void Application::Run() {
+		// log: good game engine is not a good win32 application -> solutin: set sandbox as startup project
 		while (true);
-
 	}
 
 }

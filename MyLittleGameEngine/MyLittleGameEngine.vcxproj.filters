@@ -24,6 +24,9 @@
     <ClInclude Include="src\GG.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\GG\EntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GG\Application.cpp">

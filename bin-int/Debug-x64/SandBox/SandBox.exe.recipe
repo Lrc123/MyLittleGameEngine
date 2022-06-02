@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\GameEngineDev\MyLittleGameEngine\bin\Debug-x64\MyLittleGameEngine\MyLittleGameEngine.dll</FullPath>
+      <FullPath>C:\Users\Weiqiang Chen\Documents\GitHub\MyLittleGameEngine\bin\Debug-x64\GoodGameEngine\GoodGameEngine.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\GameEngineDev\MyLittleGameEngine\bin\Debug-x64\SandBox\SandBox.exe</FullPath>
+      <FullPath>C:\Users\Weiqiang Chen\Documents\GitHub\MyLittleGameEngine\bin\Debug-x64\SandBox\SandBox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

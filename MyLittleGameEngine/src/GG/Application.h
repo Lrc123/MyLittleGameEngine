@@ -14,6 +14,9 @@ namespace GG {
 
 	};
 
+	// To be defined in CLIENT
+	Application* CreateApplication();
+
 }
 
 
