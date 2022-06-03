@@ -15,9 +15,11 @@
     <ClInclude Include="src\GG\Application.h" />
     <ClInclude Include="src\GG\Core.h" />
     <ClInclude Include="src\GG\EntryPoint.h" />
+    <ClInclude Include="src\GG\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GG\Application.cpp" />
+    <ClCompile Include="src\GG\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -69,6 +71,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GG_PLATFORM_WINDOWS;GG_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)MyLittleGameEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -83,6 +86,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GG_PLATFORM_WINDOWS;GG_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)MyLittleGameEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
